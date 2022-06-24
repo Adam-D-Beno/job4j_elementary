@@ -3,12 +3,7 @@ import java.lang.Math;
 
 public class Point {
     public static double distance(int x1, int y1, int x2, int y2) {
-        int subtractionX = x2 - x1;
-        int subtractionY = y2 - y1;
-        double exponentiationX = Math.pow(subtractionX, 2);
-        double exponentiationY = Math.pow(subtractionY, 2);
-        double sumXY = exponentiationX + exponentiationY;
-        double rsl = Math.sqrt(sumXY);
+        double rsl = Math.sqrt((Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2)));
         return rsl;
     }
 
