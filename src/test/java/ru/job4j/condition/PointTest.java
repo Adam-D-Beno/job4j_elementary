@@ -19,7 +19,7 @@ public class PointTest {
     }
 
     @Test
-    public void when10To11Then2() {
+    public void when10To11Then1() {
         double expected = 1;
         int x1 = 1;
         int y1 = 0;
@@ -30,7 +30,7 @@ public class PointTest {
     }
 
     @Test
-    public void when11To11Then2() {
+    public void when11To11Then0() {
         double expected = 0;
         int x1 = 1;
         int y1 = 1;
